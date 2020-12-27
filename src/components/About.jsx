@@ -4,7 +4,7 @@ export default function About(props) {
   const { bgColor, textColor, btnColor } = props.changer;
 
   return (
-    <div className={`card container mx ${bgColor}`}>
+    <div className={`card container mx shadow-lg ${bgColor}`}>
       <img className="card-img-top" />
       <div className="card-body">
         <h5 className={`card-title ${textColor}`}>About</h5>

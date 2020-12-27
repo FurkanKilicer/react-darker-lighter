@@ -6,7 +6,7 @@ function Navbar(props) {
 
   return (
     <div className={`${bgColor} ${textColor}`}>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-lg">
         <div className="container">
           <a className="navbar-brand" href="#">
             DogaHit
