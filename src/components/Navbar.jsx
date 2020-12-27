@@ -6,10 +6,10 @@ function Navbar(props) {
 
   return (
     <div className={`${bgColor} ${textColor}`}>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-lg">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-lg {`${bgColor} ${textColor}`}">
         <div className="container">
           <a className="navbar-brand" href="#">
-            DogaHit
+            React-Hit
           </a>
           <button
             className="navbar-toggler"
