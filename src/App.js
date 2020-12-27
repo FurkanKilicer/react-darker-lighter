@@ -1,7 +1,5 @@
 import React from "react";
 import "./style.css";
-import React from "react";
-import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootswatch/dist/lux/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
